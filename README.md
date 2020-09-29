@@ -36,19 +36,32 @@ Suppose the table already has an entry at the {3, “E”} node then we perform 
 For example,
 Source Node
 -> Destination Node1 = Hops (3)
+
 -> Destination Node2 = Hops (3)
+
 -> Destination Node3 = Hops (1)
+
 -> Destination Node4 = Hops (2)
+
 -> Destination Node5 = Hops (4)
+
 We choose the maximum hops. So here we got the max hop as 4.
 Similarly, for all the 100 source numNodes we get the max hops.
+
 SourceNode1 - > maxHops(3)
+
 SourceNode2 - > maxHops(4)
+
 SourceNode3 - > maxHops(2)
+
 SourceNode4 - > maxHops(1)
+
 SourceNode5 - > maxHops(5)
+
 And so, on
 SourceNode100 - > maxHops(4)
+
+
 Over all the nodes we give the totalMaxhops = 5
 We are storing the maximum number of hops in the state of each worker and prints the maximum of all those using GenServer.call() method in main method.
 
