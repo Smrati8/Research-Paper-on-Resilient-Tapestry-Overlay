@@ -62,3 +62,11 @@ With prefix matching we check if the node is present in the routing table of the
 on incrementing giving us the number of hops required to reach from source node to the destination node.
 
 • At the end, when all nodes have hopped, we print the maximum number of hops.
+
+# What is the largest network you managed to deal with?
+
+Largest Network dealt with:
+numNodes: 20000
+numRequests: 1
+Maximum Hops: 6
+
