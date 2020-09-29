@@ -34,6 +34,7 @@ Suppose the table already has an entry at the {3, “E”} node then we perform 
 
 • First, we calculate the maximum of the hops for a node amongst the 5 numRequests calls.
 For example,
+
 Source Node
 -> Destination Node1 = Hops (3)
 
@@ -79,7 +80,10 @@ on incrementing giving us the number of hops required to reach from source node 
 # What is the largest network you managed to deal with?
 
 Largest Network dealt with:
+
 numNodes: 20000
+
 numRequests: 1
+
 Maximum Hops: 6
 
