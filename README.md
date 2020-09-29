@@ -87,3 +87,5 @@ numRequests: 1
 
 Maximum Hops: 6
 
+
+(https://github.com/Smrati8/Research-Paper-on-Resilient-Tapestry-Overlay/blob/master/Project3/Tapestry.jpg?raw=true)
